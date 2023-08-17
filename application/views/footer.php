@@ -262,5 +262,7 @@
     <!-- Color-picker js-->
     <script src="assets/js/color/layout3.js"></script>
 
+    
+
 </body>
 </html>

@@ -32,7 +32,7 @@ class Welcome extends CI_Controller {
 	}
 	public function signup()
 	{
-		
+		// echo 'TEST';
 		$this->load->view('header');
 		$this->load->view('signup');
 		$this->load->view('footer');
