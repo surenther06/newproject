@@ -37,4 +37,12 @@ class Welcome extends CI_Controller {
 		$this->load->view('signup');
 		$this->load->view('footer');
 	}
+
+	public function singlepage()
+	{
+		
+		$this->load->view('header');
+		$this->load->view('singlepage');
+		$this->load->view('footer');
+	}
 }

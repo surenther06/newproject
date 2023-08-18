@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'welcome';
 $route['signup'] = 'welcome/signup';
+$route['singlepage'] = 'welcome/singlepage';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
