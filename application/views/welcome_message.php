@@ -503,8 +503,7 @@
                                     <a href="single-property-8.html">
                                         <h3>C Application development</h3>
                                     </a>
-                                    <p class="font-roboto">Real estate is divided into several categories, including
-                                        residential property, commercial property and industrial property.</p>
+                                    <p class="font-roboto">C App development with Project for each topic -- 70hrs(27days @2 hrs each and 16hrs for project work)</p>
                                     <div class="property-btn d-flex">
                                         <span>For aspiring indivutuals</span>
                                         <button type="button" onclick="document.location='single-property-8.html'"
@@ -529,8 +528,7 @@
                                     <a href="single-property-8.html">
                                         <h3>Programming in C++</h3>
                                     </a>
-                                    <p class="font-roboto">Real estate is divided into several categories, including
-                                        residential property, commercial property and industrial property.</p>
+                                    <p class="font-roboto">C++ with projects for each topic --97hrs (37days @2hrs each and 23hrs for project work)</p>
                                     <div class="property-btn d-flex">
                                         <span>For aspiring indivutuals</span>
                                         <button type="button" onclick="document.location='single-property-8.html'"
@@ -557,8 +555,7 @@
                                     <a href="single-property-8.html">
                                         <h3>Php Fullstack</h3>
                                     </a>
-                                    <p class="font-roboto">Real estate is divided into several categories, including
-                                        residential property, commercial property and industrial property.</p>
+                                    <p class="font-roboto">Web Development using Php and My SQL with Project for each topic -- 70hrs(27days @2 hrs each and 16hrs for project work)</p>
                                     <div class="property-btn d-flex">
                                         <span>For aspiring indivutuals</span>
                                         <button type="button" onclick="document.location='single-property-8.html'"
@@ -585,8 +582,59 @@
                                     <a href="single-property-8.html">
                                         <h3>Android development</h3>
                                     </a>
-                                    <p class="font-roboto">Real estate is divided into several categories, including
-                                        residential property, commercial property and industrial property.</p>
+                                    <p class="font-roboto">Android App Development with projects for each topic --97hrs (37days @2hrs each and 23hrs for project work)</p>
+                                    <div class="property-btn d-flex">
+                                        <span>For aspiring indivutuals</span>
+                                        <button type="button" onclick="document.location='single-property-8.html'"
+                                            class="btn btn-dashed btn-pill color-6">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 wow fadeInUp">
+                            <div class="property-box">
+                                <div class="property-image">
+                                    <div class="property-slider color-6">
+                                        <a href="javascript:void(0)">
+                                            <img src="assets/images/property/agile.jpg" class="bg-img" alt="">
+
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="property-details">
+                                    <span class="font-roboto">Information Technology</span>
+                                    <a href="single-property-8.html">
+                                        <h3>Agile development</h3>
+                                    </a>
+                                    <p class="font-roboto">This course is a very detailed and comprehensive online training course of 80 hours duration.</p>
+                                    <div class="property-btn d-flex">
+                                        <span>For aspiring indivutuals</span>
+                                        <button type="button" onclick="document.location='single-property-8.html'"
+                                            class="btn btn-dashed btn-pill color-6">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 wow fadeInUp">
+                            <div class="property-box">
+                                <div class="property-image">
+                                    <div class="property-slider color-6">
+                                        <a href="javascript:void(0)">
+                                            <img src="assets/images/property/hr.jpg" class="bg-img" alt="">
+
+                                        </a>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="property-details">
+                                    <span class="font-roboto">Hr Training</span>
+                                    <a href="single-property-8.html">
+                                        <h3>Hr skills</h3>
+                                    </a>
+                                    <p class="font-roboto">Guidance to build effective Resume and successfully crack GD and Interview Rounds of Selection</p>
                                     <div class="property-btn d-flex">
                                         <span>For aspiring indivutuals</span>
                                         <button type="button" onclick="document.location='single-property-8.html'"
@@ -613,10 +661,65 @@
                                     <a href="single-property-8.html">
                                         <h3>Excel advance</h3>
                                     </a>
+                                    <p class="font-roboto">2 Weeks of an hour each</p>
+                                    <div class="property-btn d-flex">
+                                        <span>For aspiring indivutuals</span>
+                                        <button type="button" onclick="document.location='single-property-8.html'"
+                                            class="btn btn-dashed btn-pill color-6">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 wow fadeInUp">
+                            <div class="property-box">
+                                <div class="property-image">
+                                    <div class="property-slider color-6">
+                                        <a href="javascript:void(0)">
+                                            <img src="assets/images/property/p_project.jpg" class="bg-img" alt="">
+
+                                        </a>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="property-details">
+                                    <span class="font-roboto">France</span>
+                                    <a href="single-property-8.html">
+                                        <h3>Little Acorn Farm</h3>
+                                    </a>
                                     <p class="font-roboto">Real estate is divided into several categories, including
                                         residential property, commercial property and industrial property.</p>
                                     <div class="property-btn d-flex">
-                                        <span>For aspiring indivutuals</span>
+                                        <span>August 4, 2022</span>
+                                        <button type="button" onclick="document.location='single-property-8.html'"
+                                            class="btn btn-dashed btn-pill color-6">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 wow fadeInUp">
+                            <div class="property-box">
+                                <div class="property-image">
+                                    <div class="property-slider color-6">
+                                        <a href="javascript:void(0)">
+                                            <img src="assets/images/property/visio.jpg" class="bg-img" alt="">
+
+                                        </a>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="property-details">
+                                    <span class="font-roboto">France</span>
+                                    <a href="single-property-8.html">
+                                        <h3>Little Acorn Farm</h3>
+                                    </a>
+                                    <p class="font-roboto">Real estate is divided into several categories, including
+                                        residential property, commercial property and industrial property.</p>
+                                    <div class="property-btn d-flex">
+                                        <span>August 4, 2022</span>
                                         <button type="button" onclick="document.location='single-property-8.html'"
                                             class="btn btn-dashed btn-pill color-6">Details</button>
                                     </div>
@@ -657,11 +760,8 @@
                                     <div class="property-slider color-6">
                                         <a href="javascript:void(0)">
                                             <img src="assets/images/property/french.jpg" class="bg-img" alt="">
-
                                         </a>
                                     </div>
-
-
                                 </div>
 
                                 <div class="property-details">
@@ -684,63 +784,7 @@
                                 <div class="property-image">
                                     <div class="property-slider color-6">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/property/hr.jpg" class="bg-img" alt="">
-
-                                        </a>
-                                    </div>
-
-
-                                </div>
-
-                                <div class="property-details">
-                                    <span class="font-roboto">Hr Training</span>
-                                    <a href="single-property-8.html">
-                                        <h3>Hr skills</h3>
-                                    </a>
-                                    <p class="font-roboto">Real estate is divided into several categories, including
-                                        residential property, commercial property and industrial property.</p>
-                                    <div class="property-btn d-flex">
-                                        <span>For aspiring indivutuals</span>
-                                        <button type="button" onclick="document.location='single-property-8.html'"
-                                            class="btn btn-dashed btn-pill color-6">Details</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 wow fadeInUp">
-                            <div class="property-box">
-                                <div class="property-image">
-                                    <div class="property-slider color-6">
-                                        <a href="javascript:void(0)">
-                                            <img src="assets/images/property/agile.jpg" class="bg-img" alt="">
-
-                                        </a>
-                                    </div>
-
-
-                                </div>
-
-                                <div class="property-details">
-                                    <span class="font-roboto">Information Technology</span>
-                                    <a href="single-property-8.html">
-                                        <h3>Agile development</h3>
-                                    </a>
-                                    <p class="font-roboto">Real estate is divided into several categories, including
-                                        residential property, commercial property and industrial property.</p>
-                                    <div class="property-btn d-flex">
-                                        <span>For aspiring indivutuals</span>
-                                        <button type="button" onclick="document.location='single-property-8.html'"
-                                            class="btn btn-dashed btn-pill color-6">Details</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 wow fadeInUp">
-                            <div class="property-box">
-                                <div class="property-image">
-                                    <div class="property-slider color-6">
-                                        <a href="javascript:void(0)">
-                                            <img src="assets/images/property/22.jpg" class="bg-img" alt="">
+                                            <img src="assets/images/property/aspirations.jpg" class="bg-img" alt="">
 
                                         </a>
                                     </div>
@@ -753,64 +797,7 @@
                                     <a href="single-property-8.html">
                                         <h3>Little Acorn Farm</h3>
                                     </a>
-                                    <p class="font-roboto">Real estate is divided into several categories, including
-                                        residential property, commercial property and industrial property.</p>
-                                    <div class="property-btn d-flex">
-                                        <span>August 4, 2022</span>
-                                        <button type="button" onclick="document.location='single-property-8.html'"
-                                            class="btn btn-dashed btn-pill color-6">Details</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 wow fadeInUp">
-                            <div class="property-box">
-                                <div class="property-image">
-                                    <div class="property-slider color-6">
-                                        <a href="javascript:void(0)">
-                                            <img src="assets/images/property/22.jpg" class="bg-img" alt="">
-
-                                        </a>
-                                    </div>
-
-
-                                </div>
-
-                                <div class="property-details">
-                                    <span class="font-roboto">France</span>
-                                    <a href="single-property-8.html">
-                                        <h3>Little Acorn Farm</h3>
-                                    </a>
-                                    <p class="font-roboto">Real estate is divided into several categories, including
-                                        residential property, commercial property and industrial property.</p>
-                                    <div class="property-btn d-flex">
-                                        <span>August 4, 2022</span>
-                                        <button type="button" onclick="document.location='single-property-8.html'"
-                                            class="btn btn-dashed btn-pill color-6">Details</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 wow fadeInUp">
-                            <div class="property-box">
-                                <div class="property-image">
-                                    <div class="property-slider color-6">
-                                        <a href="javascript:void(0)">
-                                            <img src="assets/images/property/22.jpg" class="bg-img" alt="">
-
-                                        </a>
-                                    </div>
-
-
-                                </div>
-
-                                <div class="property-details">
-                                    <span class="font-roboto">France</span>
-                                    <a href="single-property-8.html">
-                                        <h3>Little Acorn Farm</h3>
-                                    </a>
-                                    <p class="font-roboto">Real estate is divided into several categories, including
-                                        residential property, commercial property and industrial property.</p>
+                                    <p class="font-roboto">20 hours course duration spread across time frame as per your convenience.</p>
                                     <div class="property-btn d-flex">
                                         <span>August 4, 2022</span>
                                         <button type="button" onclick="document.location='single-property-8.html'"
@@ -845,10 +832,13 @@
                                         <img src="assets/images/others/icon-1.png" alt="">
                                     </div>
                                     <div class="media-body">
-                                        <h6>Sheltos</h6>
+                                        <!-- <h6>Sheltos</h6> -->
                                         <h3>Student Community</h3>
-                                        <p>10 new offers every day. 350 offers on site, trusted
-                                            by a community of thousands of users.</p>
+                                        <p>“We are being judged on EMPLOYABILITY INDEX....if only the Corporate World
+                                            can tell us upfront what is the Employability Index parameters relevant for
+                                            their Organization, we as student Freshers would certainly raise up their
+                                            expected levels. Our Aspiration is now looking upto the CORPORATE WORLD to
+                                            start stating their EMPLOYABILITY INDEX to us IN ADVANCE.”</p>
                                     </div>
                                 </div>
                             </div>
@@ -860,10 +850,15 @@
                                         <img src="assets/images/others/icon-2.png" alt="">
                                     </div>
                                     <div class="media-body">
-                                        <h6>Sheltos</h6>
+                                        <!-- <h6>Sheltos</h6> -->
                                         <h3>Transgender Community</h3>
-                                        <p>350 offers on site, trusted by a community of thousands of users. 10 new
-                                            offers every day. </p>
+                                        <p>“We are the only community on earth who are absolutely wanting to live life
+                                            on TRUTH of telling this world as to what our genuine feelings are rather
+                                            than the form that we initially inherited in this birth. Is our mainstream
+                                            world so fearfull of accepting this basic TRUTH on which we want to lead our
+                                            lives? Our Aspiration is for the mainstream human beings to also recognize
+                                            as the most TRUTHFUL human beings that they can have faith on and not fear
+                                            of approach.”</p>
                                     </div>
                                 </div>
                             </div>
@@ -891,7 +886,7 @@
     <!--our new offer section end -->
 
     <!-- find properties section start -->
-    <section class="my-gallery gallery-6">
+    <!-- <section class="my-gallery gallery-6">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -977,11 +972,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- find properties section end -->
 
     <!-- banner section start -->
-    <section class="banner-section banner-4 parallax-image">
+    <!-- <section class="banner-section banner-4 parallax-image">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -1003,11 +998,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- banner section end -->
 
     <!-- testimonial section start -->
-    <section class="pb-0 testimonial-style-2">
+    <!-- <section class="pb-0 testimonial-style-2">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -1052,7 +1047,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>  -->
     <!-- testimonial section end -->
 
     <!-- brand 2 start -->

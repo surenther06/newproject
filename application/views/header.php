@@ -36,10 +36,11 @@
         <div class="row loader-text">
             <div class="col-12">
                 <img src="assets/images/loader/loader.gif" class="img-fluid" alt="">
+                <!-- <div class="tenor-gif-embed" data-postid="11682624" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/download-loading-done-gif-11682624">Download Loading GIF</a>from <a href="https://tenor.com/search/download-gifs">Download GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
             </div>
             <div class="col-12">
                 <div>
-                    <h3 class="mb-0">Please wait Real estate Template loading...</h3>
+                    <h3 class="mb-0">Please wait Apirations Template loading...</h3>
                 </div>
             </div>
         </div>
@@ -86,13 +87,10 @@
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a href="javascript:void(0)" class="nav-link menu-title">Modules</a>
+                                            <a href="javascript:void(0)" class="nav-link menu-title">About</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a href="javascript:void(0)" class="nav-link menu-title">agent</a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="javascript:void(0)" class="nav-link menu-title">Contact</a>
+                                            <a href="javascript:void(0)" class="nav-link menu-title">Contact us</a>
                                         </li>
                                     </ul>
                                 </div>

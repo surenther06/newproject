@@ -20,13 +20,15 @@
                                 <div class="footer-contact">
                                     <ul>
                                         <li>
-                                            <i class="fas fa-map-marker-alt"></i>A-32, Albany, Newyork.
+                                            <i class="fas fa-map-marker-alt"></i>224,2nd Floor SATYA SAI COMPLEX 
+14 th Cross,2nd Main,Sampige Road Malleswaram,
+Bangalore 560 003
                                         </li>
                                         <li>
-                                            <i class="fas fa-phone-alt"></i>(+066) 518 - 457 - 5181
+                                            <i class="fas fa-phone-alt"></i>(+91) 8065623203 /04
                                         </li>
                                         <li>
-                                            <i class="fas fa-envelope"></i>Contact@gmail.com
+                                            <i class="fas fa-envelope"></i>cvrladder@gmail.com
                                         </li>
                                     </ul>
                                 </div>
@@ -74,69 +76,6 @@
                                         title="realestate location"
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.1583091352!2d-74.11976373946229!3d40.69766374859258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1563449626439!5m2!1sen!2sin"
                                         allowfullscreen></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-3 order-lg">
-                        <div class="footer-links footer-left-space">
-                            <h5 class="footer-title">Tag
-                                <span class="according-menu"><i class="fas fa-chevron-down"></i></span>
-                            </h5>
-                            <ul class="footer-content">
-                                <li>
-                                    <a href="blog-no-sidebar.html">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="blog-list-left-sidebar.html">Blog list</a>
-                                </li>
-                                <li>
-                                    <a href="blog-creative-right-sidebar.html">Creative blog</a>
-                                </li>
-                                <li>
-                                    <a href="blog-masonry-left-sidebar.html">Masonry</a>
-                                </li>
-                                <li>
-                                    <a href="blog-list-mix-right-sidebar.html">Mix blog</a>
-                                </li>
-                                <li>
-                                    <a href="blog-detail-gallery.html">Details</a>
-                                </li>
-                                <li>
-                                    <a href="blog-detail-video.html">Video</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="footer-links">
-                            <h5 class="footer-title">Our Latest Blog
-                                <span class="according-menu"><i class="fas fa-chevron-down"></i></span>
-                            </h5>
-                            <div class="footer-content">
-                                <div class="footer-blog">
-                                    <div class="media">
-                                        <a href="blog-detail-left-sidebar.html">
-                                            <div class="img-overlay">
-                                                    <img src="assets/images/footer/1.jpg" alt="">
-                                            </div>
-                                        </a>
-                                        <div class="media-body">
-                                            <h6><a href="blog-detail-left-sidebar.html">Top News</a></h6>
-                                            <p class="font-roboto mb-0"><a href="blog-detail-right-sidebar.html">Apartment or Flat An individual unit in a multi-unit building.</a></p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <a href="blog-detail-left-sidebar.html">
-                                            <div class="img-overlay">
-                                                    <img src="assets/images/footer/2.jpg" alt="">
-                                            </div>
-                                        </a>
-                                        <div class="media-body">
-                                            <h6><a href="blog-detail-left-sidebar.html">Latest News</a></h6>
-                                            <p class="font-roboto mb-0"><a href="blog-detail-right-sidebar.html">Residences can be classified and connected to residences..</a></p>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
