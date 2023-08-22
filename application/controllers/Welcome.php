@@ -7,6 +7,11 @@ class Welcome extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->helper('url');
+		$this->load->library('session');
+        $this->load->helper('form');
+        // $this->load->helper('url');
+        // $this->load->database('myaspirations');
+        $this->load->model('auth_model'); // Create this model later
 	}
 
 

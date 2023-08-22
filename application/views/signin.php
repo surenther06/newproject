@@ -1,3 +1,6 @@
+<?php //echo validation_errors(); ?>
+<?php echo form_open('auth/login'); ?>
+
 <!-- breadcrumb start -->
 <section class="breadcrumb-section p-0">
     <img src="assets/images/inner-background.jpg" class="bg-img img-fluid" alt="">

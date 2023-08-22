@@ -54,6 +54,10 @@ $route['signup'] = 'welcome/signup';
 $route['singlepage'] = 'welcome/singlepage';
 $route['aboutus'] = 'welcome/aboutus';
 $route['signin'] = 'welcome/signin';
+$route['login_page'] = 'auth/index';
+$route['login'] = 'auth/login';
+
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
