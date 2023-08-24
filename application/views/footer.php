@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<body>
    <!-- footer start -->
      <footer class="footer-brown">
         <div class="footer footer-custom-col">

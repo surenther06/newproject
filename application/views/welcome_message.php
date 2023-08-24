@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<body>
-    <!-- home section start -->
+   <!-- home section start -->
     <section class="home-section layout-1 layout-6">
         <div class="home-main">
             <div class="container">
@@ -1092,8 +1088,3 @@
         </div>
     </section> -->
     <!-- brand 2 end -->
-
-
-</body>
-
-</html>

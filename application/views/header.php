@@ -106,6 +106,3 @@
         </div>
     </header>
     <!--  header end -->
-</body>
-
-</html>
