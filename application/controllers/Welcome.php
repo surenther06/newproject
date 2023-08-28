@@ -46,4 +46,5 @@ class Welcome extends CI_Controller
 		$this->load->view('aboutus');
 		$this->load->view('footer');
 	}
+	
 }

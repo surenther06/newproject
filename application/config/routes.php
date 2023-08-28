@@ -57,7 +57,18 @@ $route['signin'] = 'welcome/signin';
 $route['login_page'] = 'auth/index';
 $route['login'] = 'auth/login';
 
+$route['admin/login'] = 'admin/index';
+
+$route['admin/user_login'] = 'admin/user_login';
+$route['admin/logout'] = 'admin/logout';
+
+$route['admin/dashboard'] = 'admin/dashboard';
+
+$route['admin/jobs'] = 'jobs';
+$route['admin/job/add'] = 'jobs/add_page';
+$route['admin/job/size/add'] = 'jobs/add_sizes';
+$route['admin/job/create'] = 'jobs/create';
+$route['admin/jobs/download/:id'] = 'jobs/download';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
