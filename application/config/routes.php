@@ -58,10 +58,8 @@ $route['login_page'] = 'auth/index';
 $route['login'] = 'auth/login';
 
 $route['admin/login'] = 'admin/index';
-
 $route['admin/user_login'] = 'admin/user_login';
 $route['admin/logout'] = 'admin/logout';
-
 $route['admin/dashboard'] = 'admin/dashboard';
 
 $route['admin/jobs'] = 'jobs';
@@ -69,6 +67,22 @@ $route['admin/job/add'] = 'jobs/add_page';
 $route['admin/job/size/add'] = 'jobs/add_sizes';
 $route['admin/job/create'] = 'jobs/create';
 $route['admin/jobs/download/:id'] = 'jobs/download';
+
+$route['admin/upcoming'] = 'customers';
+$route['admin/upcoming/add'] = 'customers/add_page';
+$route['admin/upcoming/create'] = 'customers/create';
+$route['admin/upcoming/status'] = 'customers/status';
+$route['admin/upcoming/edit/:id'] = 'customers/edit';
+$route['admin/upcoming/update'] = 'customers/update';
+$route['admin/upcoming/remove'] = 'customers/remove';
+
+$route['admin/course'] = 'colors';
+$route['admin/course/add'] = 'colors/add_page';
+$route['admin/course/create'] = 'colors/create';
+$route['admin/course/status'] = 'colors/status';
+$route['admin/course/edit/:id'] = 'colors/edit';
+$route['admin/course/update'] = 'colors/update';
+$route['admin/course/remove'] = 'colors/remove';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

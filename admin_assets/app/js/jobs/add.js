@@ -73,7 +73,7 @@ $(document).ready(function () {
         for (var i = 0; i < classname.length; i++) {
             if (!$.trim($('.' + classname[i]).val())) {
                 Error.push('');
-                $('.' + classname[i] + '_error').css("display", "block");
+                $('.' + classname[i] + '_error').css("display", "block");   
             } else {
                 $('.' + classname[i] + '_error').css("display", "none");
             }

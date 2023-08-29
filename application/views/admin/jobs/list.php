@@ -18,10 +18,10 @@
                         <thead>
                             <tr>
                                 <th style="width: 10%">S.No</th>
-                                <th style="width: 25%">Job Number</th>
-                                <th style="width: 25%">Job Date</th>
-                                <th style="width: 35%">Customer</th>
-                                <th style="width: 20%">Download</th>
+                                <th style="width: 25%">College Name</th>
+                                <th style="width: 25%">Date</th>
+                                <th style="width: 35%">Photos</th>
+                                <th style="width: 20%">Notes</th>
                             </tr>
                         </thead>
                         <tbody>

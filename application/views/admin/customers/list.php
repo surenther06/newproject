@@ -1,11 +1,11 @@
-<?php $this->view('includes/header'); ?>
+<?php $this->view('admin/includes/header'); ?>
 <div class="page-header d-flex justify-content-between">
     <div class="page-leftheader">
         <h4 class="page-title mb-0 text-primary">Customers</h4>
     </div>
     <div class="page-rightheader">
         <div class="btn-list">
-            <a href="<?php echo base_url(); ?>customer/add" class="btn btn-primary"><i class="fe fe-plus"></i> Add Customer</a>
+            <a href="<?php echo base_url(); ?>admin/course/add" class="btn btn-primary"><i class="fe fe-plus"></i> Add Customer</a>
         </div>
     </div>
 </div>
@@ -63,6 +63,6 @@
         </div>
     </div>
 </div>
-<?php $this->view('includes/footer'); ?>
+<?php $this->view('admin/includes/footer'); ?>
 <script src="<?php echo base_url(); ?>assets/app/js/customers/list.js?version=<?php echo uniqid(); ?>"></script>
 <script src="<?php echo base_url(); ?>assets/app/js/customers/delete.js?version=<?php echo uniqid(); ?>"></script>

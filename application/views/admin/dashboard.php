@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="">
-                            <span class="fs-14 font-weight-normal">Total Jobs</span>
+                            <span class="fs-14 font-weight-normal">Blogs</span>
                             <h2 class="mb-2 number-font carn1 font-weight-bold text-primary"><?= $jobs ?></h2>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="">
-                            <span class="fs-14">Total Customers</span>
+                            <span class="fs-14">Courses</span>
                             <h2 class="mb-2 mt-1 number-font carn2 font-weight-bold text-success"><?= $customers ?></h2>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-6">
                         <div class="">
-                            <span class="fs-14">Total Colors</span>
+                            <span class="fs-14">Up coming courses</span>
                             <h2 class="mb-2 mt-1 number-font carn2 font-weight-bold text-warning"><?= $colors ?></h2>
                         </div>
                     </div>
