@@ -6,10 +6,10 @@ $(document).ready(function () {
         dateFormat: 'dd-mm-yy'
     }).datepicker("setDate", 'now');
 
-    $('.customer_id, .color_id').select2({
-        minimumResultsForSearch: '',
-        width: '100%'
-    });
+    // $('.customer_id, .color_id').select2({
+    //     minimumResultsForSearch: '',
+    //     width: '100%'
+    // });
 
     $('.job_qty').inputmask('integer');
 

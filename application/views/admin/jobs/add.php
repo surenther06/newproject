@@ -20,7 +20,7 @@
                     <div class="row row-sm">
                         <div class="col-lg-4 mb-4">
                             <label class="form-label">College Name <span class="text-danger">*</span></label>
-                            <input class="customer_id form-control" type="text" />                            
+                            <input class="college_name form-control" type="text" />                            
                             <span class="customer_id_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please select customer *</span>
                         </div>
                         <div class="col-lg-4 mb-4">
@@ -35,18 +35,7 @@
                             </div>
                             <span class="job_date_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please select job date *</span>
                         </div>
-                        <!-- <div class="col-lg-4 mb-4">
-                            <label class="form-label">Job Complete Date <span class="text-danger">*</span></label>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">
-                                        <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 24 24" width="18"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 2v3H4V5h16zM4 21V10h16v11H4z"/><path d="M4 5.01h16V8H4z" opacity=".3"/></svg>
-                                    </div>
-                                </div>
-                                <input class="job_complete_date form-control form-control-sm" type="text">
-                            </div>
-                            <span class="job_complete_date_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please select job complete date *</span>
-                        </div> -->
+                        
                     </div>
                     <div class="row row-sm mt-4">
                         <div class="col-lg-4 mb-4">
