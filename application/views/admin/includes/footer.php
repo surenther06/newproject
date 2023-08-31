@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row align-items-center flex-row-reverse">
             <div class="col-md-12 col-sm-12 text-center">
-                Copyright © 2022 <a href="#">ASM Overseas</a> All Rights Reserved
+                Copyright © 2023 <a href="#">Ladder Consaltancy Services</a> All Rights Reserved
             </div>
         </div>
     </div>

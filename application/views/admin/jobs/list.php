@@ -1,11 +1,11 @@
 <?php $this->view('admin/includes/header'); ?>
 <div class="page-header d-flex justify-content-between">
     <div class="page-leftheader">
-        <h4 class="page-title mb-0 text-primary">Jobs</h4>
+        <h4 class="page-title mb-0 text-primary">Blogs</h4>
     </div>
     <div class="page-rightheader">
         <div class="btn-list">
-            <a href="<?php echo base_url(); ?>admin/job/add" class="btn btn-primary"><i class="fe fe-plus"></i> Add Job</a>
+            <a href="<?php echo base_url(); ?>admin/job/add" class="btn btn-primary"><i class="fe fe-plus"></i> Add Details</a>
         </div>
     </div>
 </div>

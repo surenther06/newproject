@@ -13,7 +13,7 @@ if (!$this->session->userdata('m_logged_in')) {
         <meta content="ASM Overseas - Admin Panel" name="description">
         <meta content="ASM Overseas" name="author">
         <meta name="keywords" content="">
-        <title>ASM Overseas - Admin Panel</title>
+        <title>Laddercs - Admin Panel</title>
         <link href="<?php echo base_url(); ?>admin_assets/images/brand/favicon.ico" rel="icon" type="image/x-icon"/>
         <link href="<?php echo base_url(); ?>admin_assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo base_url(); ?>admin_assets/css/style.css" rel="stylesheet" />

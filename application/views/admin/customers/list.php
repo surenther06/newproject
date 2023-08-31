@@ -5,7 +5,7 @@
     </div>
     <div class="page-rightheader">
         <div class="btn-list">
-            <a href="<?php echo base_url(); ?>admin/course/add" class="btn btn-primary"><i class="fe fe-plus"></i> Add Customer</a>
+            <a href="<?php echo base_url(); ?>admin/upcoming/add" class="btn btn-primary"><i class="fe fe-plus"></i> Add Details</a>
         </div>
     </div>
 </div>
@@ -18,38 +18,19 @@
                         <thead>
                             <tr>
                                 <th style="width: 10%">S.No</th>
-                                <th style="width: 20%">Customer Name</th>
-                                <th style="width: 20%">Phone Number</th>
-                                <th style="width: 30%">Address</th>
-                                <th class="text-center" style="width: 10%">On / Off</th>
-                                <th style="width: 10%">Status</th>
-                                <th style="width: 10%">Actions</th>
+                                <th style="width: 20%">Course Name</th>
+                                <th style="width: 20%">Short Notes</th>
+                                <th style="width: 30%">Image</th>
+                                <th style="width: 10%">Details Links</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php foreach ($customers as $key => $item) { ?>
                                 <tr>
                                     <td><?php echo ($key + 1); ?></td>
-                                    <td><?php echo $item['name']; ?></td>
-                                    <td>+91 <?php echo $item['phone_number']; ?></td>
-                                    <td><?php echo $item['address']; ?></td>
-                                    <td class="text-center">
-                                        <div class="form-group">
-                                            <label class="custom-switch">
-                                                <input type="checkbox" class="customer_status custom-switch-input" value="<?php echo $item['status']; ?>" id="<?php echo $item['id']; ?>" <?php echo $item['status'] === '1' ? 'checked' : ''; ?>>
-                                                <span class="custom-switch-indicator"></span>
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <?php
-                                        if ($item['status'] === '1') :
-                                            echo '<span class="badge bg-success">Active</span>';
-                                        else :
-                                            echo '<span class="badge bg-danger">In Active</span>';
-                                        endif;
-                                        ?>
-                                    </td>
+                                    <td><?php echo $item['course_name']; ?></td>
+                                    <td><?php echo $item['short_note']; ?></td>
+                                    <td><?php echo $item['image']; ?></td>
                                     <td>
                                         <a href="<?php echo base_url() . 'customers/edit/' . $item['id']; ?>" class="btn btn-icon btn-warning"><i class="fe fe-edit"></i></a>
                                         <button type="button" class="remove-customer-btn btn btn-icon btn-danger" value="<?php echo $item['id']; ?>"><i class="fe fe-trash"></i></button>

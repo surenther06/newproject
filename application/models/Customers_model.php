@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Customers_model extends CI_Model {
 
-    protected $_table_name = 'customers';
+    protected $_table_name = 'upcomming_course';
 
     function __construct() {
         parent::__construct();
