@@ -71,17 +71,6 @@ class Customers extends CI_Controller {
         endif;
     }
 
-    // public function status() {
-    //     $p_data = $this->input->post();
-    //     $id = array('id' => $p_data['id']);
-    //     unset($p_data['id']);
-    //     $s_customer = $this->Customers_model->update($id, $p_data);
-    //     if ($s_customer) :
-    //         echo '1';
-    //     else :
-    //         echo '0';
-    //     endif;
-    // }
 
     public function remove() {
         $p_data = $this->input->post();

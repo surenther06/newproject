@@ -43,31 +43,46 @@ class Jobs extends CI_Controller {
             echo '0';
         endif;
     }
-    public function download($id) {
-        require_once 'application/third_party/mpdf/autoload.php';
+
+
+    public function edit($id) {
         $e_id = array('id' => $id);
-        $job = $this->Jobs_model->edit_data($e_id);
-        $c_id = array('id' => $job->customer_id);
-        $customer = $this->Customers_model->edit_data($c_id);
-        $colors = $this->Colors_model->show();
-        $job_sizes = $this->job_sizes();
-        $data['customer'] = $customer;
-        $data['colors'] = $colors;
-        $data['job'] = $job;
-        $data['job_sizes'] = $job_sizes;
-        $html = $this->load->view('jobs/download', $data, true);
-//        echo $html;
-//        die();
-        $file_name = 'JOB' . sprintf('%05d', $job->id) . '-' . $job->job_date;
-        $mpdf = new \Mpdf\Mpdf();
-        $mpdf->AddPage('P', 'A4', 0, '', 5, 5, 5, 5, 25, 15, 0, 'E');
-        $mpdf->WriteHTML($html);
-        $mpdf->Output($file_name . '.pdf', 'I');
+        $jobs = $this->Jobs_model->edit_data($e_id);
+        $data['jobs'] = $jobs;
+        $this->load->view('admin/jobs/edit', $data);
     }
 
-    public function job_sizes() {
-        $job_sizes = [35, 36, 37, 38, 39, 40, 41, 42];
-        return $job_sizes;
+    public function update() {
+        $p_data = json_decode($this->input->post('Data'), true);
+        $file_name = NULL;
+        if (isset($_FILES['file'])) {
+            $folder = 'course-images';
+            if (!file_exists($folder)) {
+                mkdir($folder, 0777, true);
+            }
+            move_uploaded_file($_FILES['file']['tmp_name'], $folder . '/' . $_FILES['file']['name']);
+            $file_name = $_FILES['file']['name'];
+        }
+        $p_data['image'] = $file_name;
+        // $p_data['updated_at'] = date('Y-m-d H:i:s');
+        $id = array('id' => $p_data['id']);
+        unset($p_data['id']);
+        $u_customer = $this->Jobs_model->update($id, $p_data);
+        if ($u_customer) :
+            echo '1';
+        else :
+            echo '0';
+        endif;
     }
 
+
+    public function remove() {
+        $p_data = $this->input->post();
+        $r_blogs = $this->Jobs_model->delete($p_data);
+        if ($r_blogs) :
+            echo '1';
+        else :
+            echo '0';
+        endif;
+    }
 }

@@ -19,9 +19,9 @@
                             <tr>
                                 <th style="width: 10%">S.No</th>
                                 <th style="width: 25%">College Name</th>
-                                <th style="width: 25%">Date</th>
-                                <th style="width: 35%">Photos</th>
-                                <th style="width: 20%">Notes</th>
+                                <th style="width: 25%">city name</th>
+                                <th style="width: 35%">Notes</th>
+                                <th style="width: 20%">Photos</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -33,8 +33,8 @@
                                     <td><?php echo $item['city_name']; ?></td>
                                     <td><?php echo $item['image']; ?></td>
                                     <td>
-                                        <a href="<?php echo base_url() . 'admin/jobs/edit/' . $item['id']; ?>" class="btn btn-icon btn-warning"><i class="fe fe-edit"></i></a>
-                                        <button type="button" class="remove-customer-btn btn btn-icon btn-danger" value="<?php echo $item['id']; ?>"><i class="fe fe-trash"></i></button>
+                                        <a href="<?php echo base_url() . '/jobs/edit/' . $item['id']; ?>" class="btn btn-icon btn-warning"><i class="fe fe-edit"></i></a>
+                                        <button type="button" class="remove-jobs-btn btn btn-icon btn-danger" value="<?php echo $item['id']; ?>"><i class="fe fe-trash"></i></button>
                                     </td>
                                 </tr>
                             <?php } ?>
@@ -47,3 +47,4 @@
 </div>
 <?php $this->view('admin/includes/footer'); ?>
 <script src="<?php echo base_url(); ?>admin_assets/app/js/jobs/list.js?version=<?php echo uniqid(); ?>"></script>
+<script src="<?php echo base_url(); ?>admin_assets/app/js/jobs/delete.js?version=<?php echo uniqid(); ?>"></script>

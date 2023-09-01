@@ -7,15 +7,26 @@ class Welcome extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->helper('url');
-		$this->load->library('session');
-        $this->load->helper('form');
-        $this->load->model('auth_model');
+		//$this->load->library('session');
+        ///$this->load->helper('form');
+        // $this->load->model('auth_model');
+        // $this->load->model('customers_model');
+        $this->load->model('Colors_model');
+        $this->load->model('Jobs_model');
+		//$this->load->database(); 	
+		$this->load->model('Customers_model');
 	}
 
 	public function index()
 	{
+		$customers = $this->Customers_model->show();
+        $data['customers'] = $customers;
+		$jobs = $this->Jobs_model->show();
+        $data1['jobs'] = $jobs;
+		$colors = $this->Colors_model->show();
+        $data2['colors'] = $colors;
 		$this->load->view('header');
-		$this->load->view('welcome_message');
+		$this->load->view('welcome_message', $data , $data1, $data2);
 		$this->load->view('footer');
 	}
 
