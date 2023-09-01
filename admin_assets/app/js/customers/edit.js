@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('.add-btn').click(function () {
+    $('.edit-and-update-btn').click(function () {
         var Error = [];
         var formData = new FormData();
         var classname = ['course_name', 'short_notes', 'course_image'];
@@ -13,6 +13,7 @@ $(document).ready(function () {
             }
         }    
         
+        if ($('.course_image').val()) {
             $('.course_image_error').css("display", "none");
             var file = document.getElementById('course_image').files[0];
             var filename = file.name;
@@ -26,9 +27,10 @@ $(document).ready(function () {
                 $('.course_image_invalid_format').css("display", "block");
             }
             formData.append('file', file, file.name);
-        
+        }
 
         var Data = {
+            id: $(this).val(),
             course_name: $('.course_name').val(),
             short_note: $('.short_notes').val()
         };
@@ -39,14 +41,14 @@ $(document).ready(function () {
             $.blockUI({message: '<h5><img src="' + base_url + 'assets/images/loader/loader.gif" alt="Please wait..." width="20%" /> Please wait...</h5>'});
             $.ajax({
                 type: 'POST',
-                url: base_url + 'admin/upcoming/create',
+                url: base_url + 'admin/upcoming/update',
                 contentType: false,
                 processData: false,
                 data: formData,
                 success: function (data) {
                     console.log(data);
                     if (data === '1') {
-                        swal('Congratulations!', 'Your customer successfully added!', 'success');
+                        swal('Congratulations!', 'Your customer successfully updated!', 'success');
                         setTimeout(function () {
                             window.location.href = base_url + 'admin/upcoming';
                         }, 2000);

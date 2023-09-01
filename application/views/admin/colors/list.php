@@ -31,23 +31,14 @@
                                 <tr>
                                     <td><?php echo ($key + 1); ?></td>
                                     <td><?php echo $item['name']; ?></td>
-                                    <td class="text-center">
-                                        <div class="form-group">
-                                            <label class="custom-switch">
-                                                <input type="checkbox" class="color_status custom-switch-input" value="<?php echo $item['status']; ?>" id="<?php echo $item['id']; ?>" <?php echo $item['status'] === '1' ? 'checked' : ''; ?>>
-                                                <span class="custom-switch-indicator"></span>
-                                            </label>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <?php
-                                        if ($item['status'] === '1') :
-                                            echo '<span class="badge bg-success">Active</span>';
-                                        else :
-                                            echo '<span class="badge bg-danger">In Active</span>';
-                                        endif;
-                                        ?>
-                                    </td>
+                                    <td><?php echo $item['categories']; ?></td>
+                                    <td><?php echo $item['for_whom']; ?></td>
+                                    <td><?php echo $item['short_note']; ?></td>
+                                    <td><?php echo $item['dateails_link']; ?></td>
+                                    <td><?php echo $item['image']; ?></td>
+
+
+                                   
                                     <td>
                                         <a href="<?php echo base_url() . 'colors/edit/' . $item['id']; ?>" class="btn btn-icon btn-warning"><i class="fe fe-edit"></i></a>
                                         <button type="button" class="remove-color-btn btn btn-icon btn-danger" value="<?php echo $item['id']; ?>"><i class="fe fe-trash"></i></button>

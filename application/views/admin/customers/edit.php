@@ -32,15 +32,15 @@
                     </div>
                     <div class="row row-sm">
                     <div class="col-lg-4 mb-4">
-                            <label class="form-label">Upload Image <span class="text-danger">*</span></label>
-                            <input type="file" class="course_image form-control" id="course_image"value="<?php echo $customer->course_name; ?>" accept="image/png, image/jpg, image/jpeg" />
+                            <label class="form-label">Upload Image</label>
+                            <input type="file" class="course_image form-control" id="course_image" accept="image/png, image/jpg, image/jpeg" />
                             <span class="course_image_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please upload course image image *</span>
                             <span class="course_image_invalid_format" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Invalid file format only upload .jpg, .jpeg, .png file *</span>
                         </div>
                     </div>
                     <div class="row row-sm">
                         <div class="col-lg-12 mb-2 text-right">
-                            <button type="button" class="add-btn btn btn-primary" value="<?php echo $customer->id; ?>">Save</button>
+                            <button type="button" class="edit-and-update-btn btn btn-primary" value="<?php echo $customer->id; ?>">Save</button>
                         </div>
                     </div>
                 </form>

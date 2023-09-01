@@ -15,7 +15,7 @@ $(document).ready(function () {
                 $.blockUI({message: '<h5><img src="' + base_url + 'assets/images/loader/loader.gif" alt="Please wait..." width="20%" /> Please wait...</h5>'});
                 $.ajax({
                     type: "POST",
-                    url: base_url + 'color/remove',
+                    url: base_url + 'admin/course/remove',
                     data: Data,
                     success: function (data) {
                         if (data === '1') {

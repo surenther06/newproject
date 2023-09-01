@@ -5,7 +5,7 @@
     </div>
     <div class="page-rightheader text-right">
         <div class="btn-list">
-            <a href="<?php echo base_url(); ?>jobs" class="btn btn-primary"><i class="fe fe-arrow-left"></i> Go Back</a>
+            <a href="<?php echo base_url(); ?>admin/jobs" class="btn btn-primary"><i class="fe fe-arrow-left"></i> Go Back</a>
         </div>
     </div>
 </div>

@@ -22,11 +22,19 @@ class Colors extends CI_Controller {
     }
 
     public function create() {
-        $p_data = $this->input->post();
-        $p_data['status'] = '1';
-        $p_data['created_at'] = date('Y-m-d H:i:s');
-        $i_color = $this->Colors_model->insert($p_data);
-        if ($i_color) :
+        $p_data = json_decode($this->input->post('Data'), true);
+        $file_name = NULL;
+        if (isset($_FILES['file'])) {
+            $folder = 'course-images';
+            if (!file_exists($folder)) {
+                mkdir($folder, 0777, true);
+            }
+            move_uploaded_file($_FILES['file']['tmp_name'], $folder . '/' . $_FILES['file']['name']);
+            $file_name = $_FILES['file']['name'];
+        }
+        $p_data['image'] = $file_name;
+        $i_course = $this->Colors_model->insert($p_data);
+        if ($i_course) :
             echo '1';
         else :
             echo '0';
@@ -41,18 +49,27 @@ class Colors extends CI_Controller {
     }
 
     public function update() {
-        $p_data = $this->input->post();
-        $p_data['updated_at'] = date('Y-m-d H:i:s');
+        $p_data = json_decode($this->input->post('Data'), true);
+        $file_name = NULL;
+        if (isset($_FILES['file'])) {
+            $folder = 'course-images';
+            if (!file_exists($folder)) {
+                mkdir($folder, 0777, true);
+            }
+            move_uploaded_file($_FILES['file']['tmp_name'], $folder . '/' . $_FILES['file']['name']);
+            $file_name = $_FILES['file']['name'];
+        }
+        $p_data['image'] = $file_name;
+        // $p_data['updated_at'] = date('Y-m-d H:i:s');
         $id = array('id' => $p_data['id']);
         unset($p_data['id']);
-        $u_color = $this->Colors_model->update($id, $p_data);
-        if ($u_color) :
+        $u_customer = $this->Colors_model->update($id, $p_data);
+        if ($u_customer) :
             echo '1';
         else :
             echo '0';
         endif;
     }
-
     public function status() {
         $p_data = $this->input->post();
         $id = array('id' => $p_data['id']);

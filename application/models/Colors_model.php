@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Colors_model extends CI_Model {
 
-    protected $_table_name = 'colors';
+    protected $_table_name = 'course';
 
     function __construct() {
         parent::__construct();

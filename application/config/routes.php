@@ -66,6 +66,11 @@ $route['admin/jobs'] = 'jobs';
 $route['admin/job/add'] = 'jobs/add_page';
 $route['admin/job/size/add'] = 'jobs/add_sizes';
 $route['admin/job/create'] = 'jobs/create';
+$route['admin/job/edit/:id'] = 'jobs/edit';
+$route['admin/job/update'] = 'jobs/update';
+$route['admin/job/remove'] = 'jobs/remove';
+
+
 $route['admin/jobs/download/:id'] = 'jobs/download';
 
 $route['admin/upcoming'] = 'customers';

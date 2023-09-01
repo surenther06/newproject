@@ -20,7 +20,7 @@
                     <div class="row row-sm">
                         <div class="col-lg-4 mb-4">
                             <label class="form-label">Course Name <span class="text-danger">*</span></label>
-                            <input class="college_name form-control" type="text" />
+                            <input class="name form-control" type="text" />
                             <span class="college_name_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter the name *</span>
                         </div>
                         <div class="col-lg-4 mb-4">
@@ -37,9 +37,9 @@
                         </div>
                         <div class="col-lg-4 mb-4">
                             <label class="form-label">Upload Image<span class="text-danger">*</span></label>
-                            <input type="file" class="image form-control" id="job_image" accept="image/png, image/jpg, image/jpeg" />
-                            <span class="image_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please upload job image *</span>
-                            <span class="image_invalid_format" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Invalid file format only upload .jpg, .jpeg, .png file *</span>
+                            <input type="file" class="upload_image form-control" id="upload_image" accept="image/png, image/jpg, image/jpeg" />
+                            <span class="upload_image_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please upload job image *</span>
+                            <span class="upload_image_invalid_format" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Invalid file format only upload .jpg, .jpeg, .png file *</span>
                         </div>
                     </div>
                     <div class="row row-sm">
@@ -56,7 +56,7 @@
                     </div>
                     <div class="row row-sm mt-2">
                         <div class="col-lg-12 mb-2 text-right">
-                            <button type="button" class="add-job-btn btn btn-primary"><i class="fe fe-save"></i> Submit</button>
+                            <button type="button" class="add-btn btn btn-primary"><i class="fe fe-save"></i> Submit</button>
                         </div>
                     </div>
                 </form>

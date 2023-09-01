@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Jobs_model extends CI_Model {
 
-    protected $_table_name = 'jobs';
+    protected $_table_name = 'blogs';
 
     function __construct() {
         parent::__construct();

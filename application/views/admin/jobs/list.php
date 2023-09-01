@@ -25,23 +25,16 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <?php foreach ($jobs as $key => $item) { ?>
+                        <?php foreach ($jobs as $key => $item) { ?>
                                 <tr>
                                     <td><?php echo ($key + 1); ?></td>
-                                    <td><?php echo 'JOB' . sprintf('%05d', $item['id']); ?></td>
+                                    <td><?php echo $item['college_name']; ?></td>
+                                    <td><?php echo $item['description']; ?></td>
+                                    <td><?php echo $item['city_name']; ?></td>
+                                    <td><?php echo $item['image']; ?></td>
                                     <td>
-                                        <?php
-                                        $job_date = new DateTime($item['job_date']);
-                                        echo $job_date->format('d-m-Y');
-                                        ?>
-                                    </td>
-                                    <td>
-                                        <?php foreach ($customers as $key3 => $item2) { ?>
-                                            <?php echo $item2['id'] === $item['customer_id'] ? $item2['name'] : ''; ?>
-                                        <?php } ?>
-                                    </td>
-                                    <td>
-                                        <a href="<?php echo base_url(); ?>jobs/download/<?php echo $item['id']; ?>" target="_blank" class="btn btn-icon btn-danger"><i class="fe fe-download"> Download</i></a>
+                                        <a href="<?php echo base_url() . 'admin/jobs/edit/' . $item['id']; ?>" class="btn btn-icon btn-warning"><i class="fe fe-edit"></i></a>
+                                        <button type="button" class="remove-customer-btn btn btn-icon btn-danger" value="<?php echo $item['id']; ?>"><i class="fe fe-trash"></i></button>
                                     </td>
                                 </tr>
                             <?php } ?>
