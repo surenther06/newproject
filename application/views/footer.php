@@ -4,7 +4,7 @@
         <div class="footer footer-custom-col">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-2 col-md-6 order-xl">
+                    <div class="col-xl-4 col-md-4 order-xl">
                         <div class="footer-links footer-details">
                             <h5 class="footer-title d-md-none">Contact us
                                 <span class="according-menu"><i class="fas fa-chevron-down"></i></span>
@@ -32,7 +32,7 @@ Bangalore 560 003
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-md-3">
+                    <div class="col-xl-4 col-md-4">
                         <div class="footer-links footer-left-space">
                             <h5 class="footer-title">About
                                 <span class="according-menu"><i class="fas fa-chevron-down"></i></span>
@@ -62,7 +62,7 @@ Bangalore 560 003
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 order-xl">
+                    <div class="col-xl-4 col-md-4 order-xl">
                         <div class="footer-links">
                             <h5 class="footer-title">Our Location
                                 <span class="according-menu"><i class="fas fa-chevron-down"></i></span>

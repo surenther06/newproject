@@ -14,8 +14,8 @@
                                                    <img src="assets/images/signature/2.png" class="img-fluid m-0" alt="">
                                                    <h6>Want to buy or rent Home ?</h6>
                                                    <h1>Reality Properties solve your problems</h1>
-                                                   <a href="submit-property.html" class="btn btn-gradient color-6">submit
-                                                       property</a>
+                                                   <!-- <a href="submit-property.html" class="btn btn-gradient color-6">submit
+                                                       property</a> -->
                                                </div>
                                            </div>
                                        </div>
@@ -508,7 +508,7 @@
                            </div>
                        </div>
 
-                    <?php //}?> -->
+                    <?php // }?> -->
                        <div class="col-xl-4 col-md-6 wow fadeInUp">
                            <div class="property-box">
                                <div class="property-image">
