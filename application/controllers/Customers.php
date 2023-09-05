@@ -71,7 +71,6 @@ class Customers extends CI_Controller {
         endif;
     }
 
-
     public function remove() {
         $p_data = $this->input->post();
         $r_customer = $this->Customers_model->delete($p_data);

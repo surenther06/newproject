@@ -20,13 +20,13 @@ class Welcome extends CI_Controller
 	public function index()
 	{
 		$customers = $this->Customers_model->show();
-        $data['customers'] = $customers;
 		$jobs = $this->Jobs_model->show();
-        $data1['jobs'] = $jobs;
 		$colors = $this->Colors_model->show();
-        $data2['colors'] = $colors;
+        $data['customers'] = $customers;
+        $data['jobs'] = $jobs;
+        $data['colors'] = $colors;
 		$this->load->view('header');
-		$this->load->view('welcome_message', $data , $data1, $data2);
+		$this->load->view('welcome_message', $data);
 		$this->load->view('footer');
 	}
 

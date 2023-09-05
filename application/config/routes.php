@@ -87,5 +87,7 @@ $route['admin/course/edit/:id'] = 'colors/edit';
 $route['admin/course/update'] = 'colors/update';
 $route['admin/course/remove'] = 'colors/remove';
 
+$route["admin/mentor"] =  "mentors";
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

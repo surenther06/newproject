@@ -14,7 +14,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="">
-                    <table class="CustomersTable table table-bordered table-striped table-responsive" style="width: 100%">
+                    <table class="Mnetorstable table table-bordered table-striped table-responsive" style="width: 100%">
                         <thead>
                             <tr>
                                 <th style="width: 10%">S.No</th>
@@ -45,5 +45,5 @@
     </div>
 </div>
 <?php $this->view('admin/includes/footer'); ?>
-<script src="<?php echo base_url(); ?>admin_assets/app/js/customers/list.js?version=<?php echo uniqid(); ?>"></script>
-<script src="<?php // echo base_url(); ?>admin_assets/app/js/customers/delete.js?version=<?php echo uniqid(); ?>"></script>
+<script src="<?php echo base_url(); ?>admin_assets/app/js/mentors/list.js?version=<?php echo uniqid(); ?>"></script>
+<script src="<?php // echo base_url(); ?>admin_assets/app/js/customers/delete.js?version=<?php // echo uniqid(); ?>"></script>

@@ -12,7 +12,7 @@ class Mentors  extends CI_Controller {
     }
 
     public function index() {
-        $mentors = $this->Mentorsmpdel->show();
+        $mentors = $this->Mentorsmodel->show();
         $data['mentors'] = $mentors;
         $this->load->view('admin/mentor/list', $data);
     }

@@ -481,8 +481,8 @@
                    </div>
                    <div class="property-2 row column-space color-6">
 
-<!-- 
-                   <?php// foreach ($colors as $key => $item) { ?>
+
+                   <?php foreach ($colors as $key => $item) { ?>
                        <div class="col-xl-4 col-md-6 wow fadeInUp">
                            <div class="property-box">
                                <div class="property-image">
@@ -495,20 +495,20 @@
                                </div>
 
                                <div class="property-details">
-                                   <span class="font-roboto"><?php //echo $item['categories']; ?></span>
+                                   <span class="font-roboto"><?php echo $item['categories']; ?></span>
                                    <a href="single-property-8.html">
-                                       <h3><?php //echo $item['name']; ?></h3>
+                                       <h3><?php echo $item['name']; ?></h3>
                                    </a>
                                    <p class="font-roboto"><?php echo $item['short_note']; ?></p>
                                    <div class="property-btn d-flex">
-                                       <span><?php// echo $item['For_whom']; ?></span>
+                                       <span><?php echo $item['for_whom']; ?></span>
                                        <button type="button" onclick="document.location='single-property-8.html'" class="btn btn-dashed btn-pill color-6">Details</button>
                                    </div>
                                </div>
                            </div>
                        </div>
 
-                    <?php // }?> -->
+                    <?php  }?>
                        <div class="col-xl-4 col-md-6 wow fadeInUp">
                            <div class="property-box">
                                <div class="property-image">
