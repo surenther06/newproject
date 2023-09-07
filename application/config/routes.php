@@ -87,7 +87,13 @@ $route['admin/course/edit/:id'] = 'colors/edit';
 $route['admin/course/update'] = 'colors/update';
 $route['admin/course/remove'] = 'colors/remove';
 
-$route["admin/mentor"] =  "mentors";
+$route["admin/mentors"] =  "mentors";
+$route['admin/mentors/add'] = 'mentors/add_page';
+$route['admin/mentors/create'] = 'mentors/create';
+$route['admin/mentors/status'] = 'mentors/status';
+$route['admin/mentors/edit/:id'] = 'mentors/edit';
+$route['admin/mentors/update'] = 'mentors/update';
+$route['admin/mentors/remove'] = 'mentors/remove';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

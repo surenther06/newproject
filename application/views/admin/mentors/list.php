@@ -14,14 +14,14 @@
         <div class="card">
             <div class="card-body">
                 <div class="">
-                    <table class="Mnetorstable table table-bordered table-striped table-responsive" style="width: 100%">
+                    <table class="Mentorstable table table-bordered table-striped table-responsive" style="width: 100%">
                         <thead>
                             <tr>
                                 <th style="width: 10%">S.No</th>
-                                <th style="width: 20%">Course Name</th>
+                                <th style="width: 20%">Name</th>
                                 <th style="width: 20%">Short Notes</th>
                                 <th style="width: 30%">Image</th>
-                                <th style="width: 10%">Details Links</th>
+                                <th style="width: 10%">buttons</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -32,8 +32,8 @@
                                     <td><?php // echo $item['short_note']; ?></td>
                                     <td><?php //echo $item['image']; ?></td>
                                     <td>
-                                        <a href="<?php //echo base_url() . 'customers/edit/' . $item['id']; ?>" class="btn btn-icon btn-warning"><i class="fe fe-edit"></i></a>
-                                        <button type="button" class="remove-customer-btn btn btn-icon btn-danger" value="<?php // echo $item['id']; ?>"><i class="fe fe-trash"></i></button>
+                                        <!-- <a href="<?php //echo base_url() . 'customers/edit/' . $item['id']; ?>" class="btn btn-icon btn-warning"><i class="fe fe-edit"></i></a> -->
+                                        <!-- <button type="button" class="remove-customer-btn btn btn-icon btn-danger" value="<?php // echo $item['id']; ?>"><i class="fe fe-trash"></i></button> -->
                                     </td>
                                 </tr>
                             <?php // } ?>
