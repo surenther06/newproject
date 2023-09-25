@@ -95,5 +95,9 @@ $route['admin/mentors/edit/:id'] = 'mentors/edit';
 $route['admin/mentors/update'] = 'mentors/update';
 $route['admin/mentors/remove'] = 'mentors/remove';
 
+$route["admin/member_register"] =  "register";
+$route['admin/member_register/add'] = 'register/add_page';
+$route['admin/member_register/create'] = 'register/create';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

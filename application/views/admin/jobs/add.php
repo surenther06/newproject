@@ -1,7 +1,7 @@
 <?php $this->view('admin/includes/header'); ?>
 <div class="page-header d-flex justify-content-between">
     <div class="page-leftheader">
-        <h4 class="page-title mb-0 text-primary">Blogs</h4>
+        <h4 class="page-title mb-0 text-primary">Career Engage</h4>
     </div>
     <div class="page-rightheader text-right">
         <div class="btn-list">
@@ -13,13 +13,13 @@
     <div class="col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Add Blogs</h3>
+                <h3 class="card-title">Add Details</h3>
             </div>
             <div class="card-body pb-2">
                 <form>
                     <div class="row row-sm">
                         <div class="col-lg-6 mb-2">
-                            <label class="form-label">college Name <span class="text-danger">*</span></label>
+                            <label class="form-label">Heading <span class="text-danger">*</span></label>
                             <input class="college_name form-control" type="text">
                             <span class="college_name_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter college name *</span>
                         </div>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="row row-sm">
                     <div class="col-lg-6 mb-2">
-                            <label class="form-label">City Name<span class="text-danger">*</span></label>
+                            <label class="form-label">Sub heading<span class="text-danger">*</span></label>
                             <textarea class="city_name form-control"></textarea>
                             <span class="city_name_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter short notes *</span>
                         </div>

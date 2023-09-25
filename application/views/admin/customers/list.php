@@ -1,7 +1,7 @@
 <?php $this->view('admin/includes/header'); ?>
 <div class="page-header d-flex justify-content-between">
     <div class="page-leftheader">
-        <h4 class="page-title mb-0 text-primary">Customers</h4>
+        <h4 class="page-title mb-0 text-primary">Know your Industry</h4>
     </div>
     <div class="page-rightheader">
         <div class="btn-list">
@@ -18,7 +18,7 @@
                         <thead>
                             <tr>
                                 <th style="width: 10%">S.No</th>
-                                <th style="width: 20%">Course Name</th>
+                                <th style="width: 20%">Name</th>
                                 <th style="width: 20%">Short Notes</th>
                                 <th style="width: 30%">Image</th>
                                 <th style="width: 10%">Details Links</th>

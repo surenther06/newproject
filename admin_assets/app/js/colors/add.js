@@ -63,11 +63,13 @@ $(document).ready(function () {
                     }
                 },
                 error: function (data2) {
+                    
                     alert(JSON.stringify(data2));
                 },
                 complete: function () {
                     $.unblockUI();
                 }
+                
             });
         }
     });
