@@ -19,14 +19,16 @@ class Register extends CI_Controller {
     }
 
     public function add_page() {
-        $this->load->view('admin/member_register/add');
+        $this->load->view('header');
+		$this->load->view('ryla_register');
+		$this->load->view('footer');
     }
 
     
 
     public function create() {
         $p_data = $this->input->post();
-        // $p_data['status'] = '1';
+    // $p_data['status'] = '1';
         // $p_data['created_at'] = date('Y-m-d H:i:s');
         $i_register = $this->Register_model->insert($p_data);
         if ($i_register) :

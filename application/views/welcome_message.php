@@ -75,7 +75,7 @@
                                                </a>
                                            </li>
                                            <li>
-                                               <a href="user-listing.html" class="looking-icon">
+                                               <a href="<?php echo base_url(); ?>admin/member_register/add" class="looking-icon">
                                                    <svg class="property-svg">
                                                        <use xlink:href="assets/svg/icons.svg#key"></use>
                                                    </svg>
