@@ -8,7 +8,7 @@
     <meta name="description" content="Sheltos - Filter search with slider home page">
     <meta name="keywords" content="sheltos">
     <meta name="author" content="sheltos">
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="<?php echo base_url(); ?>assets/images/favicon.png" type="image/x-icon" />
     <title>Sheltos - Filter search with slider home page</title>
 
     <!--Google font-->
@@ -19,14 +19,17 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 
     <!-- range slider css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/jquery-ui.css">
 
     <!-- animate css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/animate.css">
 
     <!-- Template css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/color1.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/color1.css">
+
+    <link href="<?php echo base_url(); ?>admin_assets/plugins/datatables/DataTables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    
 
 </head>
 
@@ -35,7 +38,7 @@
     <div class="loader-wrapper">
         <div class="row loader-text">
             <div class="col-12">
-                <img src="assets/images/loader/loader.gif" class="img-fluid" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/loader/loader.gif" class="img-fluid" alt="">
                 <!-- <div class="tenor-gif-embed" data-postid="11682624" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/download-loading-done-gif-11682624">Download Loading GIF</a>from <a href="https://tenor.com/search/download-gifs">Download GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
             </div>
             <div class="col-12">
@@ -55,7 +58,7 @@
                     <div class="menu">
                         <div class="brand-logo">
                             <a href="../index-2.html">
-                                <img src="assets/images/logo/6.png" alt="" class="img-fluid">
+                                <img src="<?php echo base_url(); ?>assets/images/logo/6.png" alt="" class="img-fluid">
                             </a>
                         </div>
                         <nav>

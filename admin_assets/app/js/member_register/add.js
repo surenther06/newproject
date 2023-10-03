@@ -2,7 +2,6 @@ $(document).ready(function () {
 
     $('.add-btn').click(function () {
         var Error = [];
-        var formData = new FormData();
         var classname = ['fname', 'lname', 'gender','phone_number','dob','email','address','pincode'];
         for (var i = 0; i < classname.length; i++) {
             if (!$.trim($('.' + classname[i]).val())) {
@@ -12,7 +11,6 @@ $(document).ready(function () {
                 $('.' + classname[i] + '_error').css("display", "none");
             }
         }
-        
 
         if (Error.length === 0) {
             var Data = {

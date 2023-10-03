@@ -21,7 +21,7 @@
                         <div class="col-lg-4 mb-4">
                             <label class="form-label">First Name <span class="text-danger">*</span></label>
                             <input class="fname form-control" type="text" />
-                            <span class="fname_name_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter the first name *</span>
+                            <span class="fname_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter the first name *</span>
                         </div>
                         <div class="col-lg-4 mb-4">
                             <label class="form-label">Last Name<span class="text-danger">*</span></label>
@@ -38,29 +38,29 @@
                         <div class="col-lg-4 mb-4">
                             <label class="form-label">Phone Number<span class="text-danger">*</span></label>
                             <input class="phone_number form-control" type="tel" />
-                            <span class="phone_number_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter who want this class *</span>
+                            <span class="phone_number_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter Phonenumber *</span>
                         </div>
                         <div class="col-lg-4 mb-4">
                             <label class="form-label">Date Of Birth<span class="text-danger">*</span></label>
                             <input class="dob form-control" type="date" />
-                            <span class="dob_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter who want this class *</span>
+                            <span class="dob_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter Dob *</span>
                         </div>
                         <div class="col-lg-4 mb-4">
                             <label class="form-label">Email Address<span class="text-danger">*</span></label>
                             <input class="email form-control" type="email" />
-                            <span class="email_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter who want this class *</span>
+                            <span class="email_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter Email *</span>
                         </div>
                     </div>
                     <div class="row row-sm">
                         <div class="col-lg-6 mb-4">
                             <label class="form-label">Address<span class="text-danger">*</span></label>
                             <textarea class="address form-control"></textarea>
-                            <span class="address_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter notes *</span>
+                            <span class="address_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter Address *</span>
                         </div>
                         <div class="col-lg-6 mb-4">
                             <label class="form-label">Pin Code<span class="text-danger">*</span></label>
                             <textarea class="pincode form-control"></textarea>
-                            <span class="details_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter link *</span>
+                            <span class="pincode_error" style="font-size: 12px; color: red; margin-top: 5px; display: none;">Please enter Pincode *</span>
                         </div>
                     </div>
                     <div class="row row-sm mt-2">

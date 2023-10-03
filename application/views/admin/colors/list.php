@@ -36,9 +36,6 @@
                                     <td><?php echo $item['short_note']; ?></td>
                                     <td><?php echo $item['dateails_link']; ?></td>
                                     <td><?php echo $item['image']; ?></td>
-
-
-                                   
                                     <td>
                                         <a href="<?php echo base_url() . 'colors/edit/' . $item['id']; ?>" class="btn btn-icon btn-warning"><i class="fe fe-edit"></i></a>
                                         <button type="button" class="remove-color-btn btn btn-icon btn-danger" value="<?php echo $item['id']; ?>"><i class="fe fe-trash"></i></button>

@@ -11,7 +11,7 @@
                             </h5>
                             <div class="footer-content">
                                 <a href="../index-2.html">
-                                    <img src="assets/images/logo/6.png" alt="" class="img-fluid">
+                                    <img src="<?php echo base_url(); ?>assets/images/logo/6.png" alt="" class="img-fluid">
                                 </a>
                                 <p>This home provides entertaining spaces with a kitchen opening...</p>
                                 <div class="footer-contact">
@@ -161,44 +161,61 @@ Bangalore 560 003
     <!-- customizer end -->
 
     <!-- latest jquery-->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery-3.6.0.min.js"></script>
 
     <!-- popper js-->
-    <script src="assets/js/popper.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/popper.min.js"></script>
 
     <!-- Bootstrap js-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- range slider js -->
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/jquery.ui.touch-punch.min.js"></script>
-    <script src="assets/js/range-slider.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery-ui.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/range-slider.js"></script>
 
     <!-- feather icon js-->
-    <script src="assets/js/feather-icon/feather.min.js"></script>
-    <script src="assets/js/feather-icon/feather-icon.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/feather-icon/feather.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/feather-icon/feather-icon.js"></script>
 
     <!-- slick js -->
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/slick-animation.min.js"></script>
-    <script src="assets/js/custom-slick.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/slick.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/slick-animation.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/custom-slick.js"></script>
 
     <!-- notify js -->
-    <script src="assets/js/bootstrap-notify.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap-notify.min.js"></script>
 
     <!-- wow js-->
-    <script src="assets/js/wow.min.js" ></script>
+    <script src="<?php echo base_url(); ?>assets/js/wow.min.js" ></script>
 
     <!-- Template js-->
-    <script src="assets/js/script.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/script.js"></script>
 
     <!-- Customizer js-->
-    <script src="assets/js/customizer.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/customizer.js"></script>
 
     <!-- Color-picker js-->
-    <script src="assets/js/color/layout3.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/color/layout3.js"></script>
 
+    <script src="<?php echo base_url(); ?>admin_assets/js/jquery.min.js"></script>
     
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/bootstrap/popper.min.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/sidemenu/sidemenu.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/p-scrollbar/p-scrollbar.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/p-scrollbar/p-scroll1.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/js/apexcharts.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/js/index1.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/datatables/DataTables/js/jquery.dataTables.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/datatables/DataTables/js/dataTables.bootstrap5.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/select2/select2.full.min.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/js/custom.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/js/jquery.blockUI.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/date-picker/jquery-ui.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/plugins/sweet-alert/sweetalert.min.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/js/jquery.repeater.min.js"></script>
+    <script src="<?php echo base_url(); ?>admin_assets/js/inputmask.js"></script>
 
 </body>
 </html>
